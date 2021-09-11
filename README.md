@@ -24,3 +24,9 @@ func _() {
 
 }
  ```
+ 
+ ```python
+ import requests
+ res = requests.get("https://api.codeksion.net/fun/karaambar",files={"photo":open("homer.png","rb")},data={"name":"Homer","surname":"İvedik"})
+ ...
+ ```
